@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spo-sites-explorer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spoSitesExplorer/SpoSitesExplorerWebPart.js",
+          "manifest": "./src/webparts/spoSitesExplorer/SpoSitesExplorerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpoSitesExplorerWebPartStrings": "lib/webparts/spoSitesExplorer/loc/{locale}.js"
+  }
+}
